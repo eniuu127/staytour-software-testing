@@ -1,17 +1,22 @@
-# STAYTOUR – HỆ THỐNG ĐẶT HOMESTAY VÀ TOUR DU LỊCH
+# HỆ THỐNG ĐẶT HOMESTAY VÀ TOUR DU LỊCH – STAYTOUR
 
-**Software Testing Portfolio | Dự án học tập**
+**Software Testing Portfolio | 08/2026 – 10/2026**
 
 ## 1. Giới thiệu dự án
 
-StayTour là hệ thống hỗ trợ tìm kiếm, xem thông tin và đặt homestay hoặc tour du lịch. Các nghiệp vụ được ghi nhận trong bộ Test Case gồm tài khoản, tìm kiếm, đặt chỗ, thanh toán và đặt cọc, khuyến mãi, quản lý đơn đặt và chức năng quản trị.
+StayTour là website hỗ trợ tìm kiếm và đặt homestay, đặt tour du lịch và thanh toán trực tuyến. Repository này trình bày tài liệu và kết quả thực hành kiểm thử phần mềm của dự án.
 
-Repository trình bày tài liệu **phân tích nghiệp vụ và thực hành kiểm thử phần mềm**, tập trung vào kiểm thử chức năng (Functional Testing) và kiểm thử bảo mật cơ bản (Basic Security Testing).
+- **Vai trò:** Kiểm thử phần mềm.
+- **Công cụ:** Microsoft Excel, Postman, Chrome DevTools.
 
-## 2. Phạm vi kiểm thử
+## 2. Công việc thực hiện
 
-- **Kiểm thử chức năng:** Tìm kiếm homestay/tour, đăng ký/đăng nhập, hồ sơ người dùng, danh sách yêu thích, đặt homestay và tour, thanh toán, khuyến mãi, hủy đơn, đánh giá và quản trị.
-- **Kiểm thử bảo mật cơ bản:** HTTPS và cookie, bảo vệ mật khẩu, xác thực dữ liệu đầu vào, XSS, CSRF, phân quyền, tải tệp, giới hạn đăng nhập và xử lý giao dịch.
+- Xây dựng các kịch bản kiểm thử dựa trên yêu cầu và luồng hoạt động của website.
+- Kiểm thử các chức năng đăng ký, đăng nhập, tìm kiếm, đặt phòng, đặt tour và thanh toán.
+- Sử dụng Postman để kiểm tra API và Chrome DevTools hỗ trợ kiểm tra hoạt động của website.
+- Đối chiếu kết quả thực tế với kết quả mong đợi, ghi nhận lỗi và đánh giá kết quả kiểm thử.
+
+Bộ Test Case đi kèm bao gồm các trường hợp kiểm thử chức năng và kiểm thử bảo mật cơ bản.
 
 ## 3. Kết quả thực thi Test Case
 
@@ -24,14 +29,12 @@ Repository trình bày tài liệu **phân tích nghiệp vụ và thực hành 
 - **Tỷ lệ thực thi:** 59/60 = **98,3%**.
 - **Tỷ lệ Pass trên số Test Case đã thực thi:** 53/59 = **89,8%**.
 
-Kết quả được tổng hợp từ bảng Test Case. Các trường hợp Fail không đồng nghĩa với số lượng Bug Report độc lập; phạm vi kiểm thử bảo mật chỉ ở mức cơ bản.
+Kết quả được tổng hợp từ bộ Test Case; các trường hợp Fail không đồng nghĩa với số lượng Bug Report độc lập.
 
 ## 4. Tài liệu kiểm thử
 
 | Thư mục | Nội dung |
 |---|---|
-| [01-Test-Cases](./01-Test-Cases/) | Bộ Test Case kiểm thử chức năng và bảo mật cơ bản, có ghi nhận kết quả thực thi. |
+| [01-Test-Cases](./01-Test-Cases/) | Bộ trường hợp kiểm thử chức năng, bảo mật cơ bản và kết quả thực thi. |
 
 **Xem nhanh:** [Test Cases (Excel)](./01-Test-Cases/StayTour_Test_Cases.xlsx)
-
-Repository chỉ giới thiệu tài liệu hiện có; chưa bổ sung Test Plan, SRS hoặc báo cáo lỗi độc lập.
