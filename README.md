@@ -4,10 +4,11 @@
 
 ## 1. Giới thiệu dự án
 
-StayTour là website hỗ trợ tìm kiếm, đặt homestay, đặt tour du lịch và thực hiện các nghiệp vụ thanh toán. Repository này lưu trữ tài liệu thiết kế và ghi nhận kết quả kiểm thử phần mềm của dự án.
+StayTour là website hỗ trợ tìm kiếm, đặt homestay, đặt tour du lịch và thực hiện các nghiệp vụ thanh toán. Repository này lưu trữ tài liệu thiết kế và ghi nhận kết quả kiểm thử phần mềm của dự án. Mã nguồn ứng dụng được lưu trữ tại repository liên kết bên dưới.
 
 - **Vai trò:** Kiểm thử phần mềm.
 - **Công cụ:** Excel, Postman, Chrome DevTools.
+- **Repository mã nguồn hệ thống được kiểm thử:** [NhungVu248/tmdtn02](https://github.com/NhungVu248/tmdtn02).
 
 ## 2. Công việc thực hiện
 
