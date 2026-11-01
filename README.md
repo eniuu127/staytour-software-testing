@@ -4,10 +4,10 @@
 
 ## 1. Giới thiệu dự án
 
-StayTour là website hỗ trợ tìm kiếm và đặt homestay, đặt tour du lịch và thanh toán trực tuyến. Repository này trình bày tài liệu và kết quả thực hành kiểm thử phần mềm của dự án.
+StayTour là website hỗ trợ tìm kiếm, đặt homestay, đặt tour du lịch và thực hiện các nghiệp vụ thanh toán. Repository này lưu trữ tài liệu thiết kế và ghi nhận kết quả kiểm thử phần mềm của dự án.
 
 - **Vai trò:** Kiểm thử phần mềm.
-- **Công cụ:** Microsoft Excel, Postman, Chrome DevTools.
+- **Công cụ:** Excel, Postman, Chrome DevTools.
 
 ## 2. Công việc thực hiện
 
@@ -16,7 +16,7 @@ StayTour là website hỗ trợ tìm kiếm và đặt homestay, đặt tour du 
 - Sử dụng Postman để kiểm tra API và Chrome DevTools hỗ trợ kiểm tra hoạt động của website.
 - Đối chiếu kết quả thực tế với kết quả mong đợi, ghi nhận lỗi và đánh giá kết quả kiểm thử.
 
-Bộ Test Case đi kèm bao gồm các trường hợp kiểm thử chức năng và kiểm thử bảo mật cơ bản.
+Tài liệu được chia thành **Functional Test Case** và **Security Test Case** để theo dõi các trường hợp kiểm thử chức năng và bảo mật cơ bản.
 
 ## 3. Kết quả thực thi Test Case
 
@@ -29,12 +29,16 @@ Bộ Test Case đi kèm bao gồm các trường hợp kiểm thử chức năng
 - **Tỷ lệ thực thi:** 59/60 = **98,3%**.
 - **Tỷ lệ Pass trên số Test Case đã thực thi:** 53/59 = **89,8%**.
 
-Kết quả được tổng hợp từ bộ Test Case; các trường hợp Fail không đồng nghĩa với số lượng Bug Report độc lập.
+Số liệu được tổng hợp từ bộ Test Case đã ghi nhận; trạng thái Fail không đồng nghĩa với số lượng Bug Report độc lập.
 
 ## 4. Tài liệu kiểm thử
 
 | Thư mục | Nội dung |
 |---|---|
-| [01-Test-Cases](./01-Test-Cases/) | Bộ trường hợp kiểm thử chức năng, bảo mật cơ bản và kết quả thực thi. |
+| [01-Test-Cases](./01-Test-Cases/) | Bộ Test Case kiểm thử chức năng và bảo mật cơ bản, lưu bằng Excel và PDF. |
 
-**Xem nhanh:** [Test Cases (Excel)](./01-Test-Cases/StayTour_Test_Cases.xlsx)
+**Xem nhanh tài liệu:**
+
+- [Test Cases (Excel)](./01-Test-Cases/CV_TestCase%20TMDT.xlsx)
+- [Functional Test Cases (PDF)](./01-Test-Cases/Functional_TestCase.pdf)
+- [Security Test Cases (PDF)](./01-Test-Cases/Security_Test%20Case%20.pdf)
